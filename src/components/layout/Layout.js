@@ -5,23 +5,22 @@ import Header from "./Header";
 import Footer from "./Footer";
 
 const Layout = ({ children }) => {
-  const [minHeight, setMinHeight] = useState(visualViewport.height + "px");
+  const [height, setHeight] = useState(visualViewport.height + "px");
 
+  // To aviod scrolling in Opera browser (in mobile size)
   useEffect(() => {
     const detectUserScreenHeight = () => {
-      setMinHeight(visualViewport.height + "Px");
-      console.log(visualViewport.height)
+      setHeight(visualViewport.height + "Px");
     };
-
 
     window.addEventListener("resize", detectUserScreenHeight);
 
     return () => window.removeEventListener("resize", detectUserScreenHeight);
-  }, [minHeight]);
+  }, [height]);
 
   return (
     <div 
-      style={{minHeight}}
+      style={{height}}
       className="bg-building bg-center bg-cover bg-border-box
         bg-no-repeat flex flex-col"
     >
