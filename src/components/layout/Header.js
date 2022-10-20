@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 // Styles
-import styles from "./Header.module.css";
+import styles from "../../styles/Header.module.css";
 
 const Header = () => {
 
@@ -17,11 +17,11 @@ const Header = () => {
 
   useEffect(() => {
     window.addEventListener("click", e => {
-        if (hamburgerIcon.current.contains(e.target)) {
-            return
-        } else if (!navbar.current.contains(e.target)) {
-            setIsMenuOpen(false)
-        }
+      if (hamburgerIcon.current.contains(e.target)) {
+          return
+      } else if (!navbar.current.contains(e.target)) {
+          setIsMenuOpen(false)
+      }
     })
   }, [])
 
