@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <div
       className={`${styles.scrollBar} 
-        text-white flex flex-1 overflow-auto max-w-2xl mx-auto my-5 px-[30px]`}
+        text-white flex flex-1 overflow-auto max-w-3xl mx-auto my-5 px-[30px]`}
     >
       <div className="flex flex-col items-start gap-y-7">
         <div className="text-2xl">
