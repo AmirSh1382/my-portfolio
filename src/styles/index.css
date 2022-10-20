@@ -31,3 +31,8 @@ code {
   --text-primary: rgb(239 68 68);
   --text-white: #ececec;
 }
+
+.test {
+  background-color: #546883;
+  background-color: #466276;
+}
