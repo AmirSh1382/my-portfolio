@@ -27,7 +27,7 @@ code {
 }
 
 :root {
-  --bg-secondary: rgb(48,55,56);
   --text-primary: rgb(239 68 68);
+  --bg-secondary: rgb(55 65 81);
   --text-white: #ececec;
 }

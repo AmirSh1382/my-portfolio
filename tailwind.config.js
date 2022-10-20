@@ -3,9 +3,6 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      backgroundColor: {
-        "secondary": "rgb(48,55,56)"
-      },
       textColor: {
         "white": "#ececec",
         "primary": "rgb(239 68 68)",
