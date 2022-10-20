@@ -8,7 +8,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import App from "./App";
 
 // Styles
-import "./index.css";
+import "./styles/index.css";
 
 // React-router-dom
 import { BrowserRouter } from "react-router-dom";

@@ -11,7 +11,7 @@ module.exports = {
         "primary": "rgb(239 68 68)"
       },
       backgroundImage: {
-        "building": "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(./assets/building-bg.jpg)"
+        "building": "linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../assets/building-bg.jpg)"
       }
     },
   },

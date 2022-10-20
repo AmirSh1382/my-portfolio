@@ -1,7 +1,7 @@
 import React from "react";
 
 // Styles
-import styles from "./scrollBar.module.css";
+import styles from "../styles/scrollBar.module.css";
 
 const AboutMe = () => {
   return (
