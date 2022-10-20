@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         "primary": "rgba(255,0,0)",
-        "secondary": "rgb(70, 96, 111)"
+        "secondary": "rgb(48,55,56)"
       },
       textColor: {
         "white": "#ececec",
