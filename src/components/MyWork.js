@@ -16,7 +16,7 @@ const MyWork = () => {
     <div
       className={`${styles.scrollBar}
         grid grid-cols-1 md:grid-cols-2 gap-5 flex-1 overflow-auto
-        max-w-3xl text-white w-full mx-auto px-7 my-5`}
+        max-w-3xl text-white w-full mx-auto my-5 px-10`}
     >
       <ProjectCard
         img={cryptoWatcherImg}

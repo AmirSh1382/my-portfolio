@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="text-white flex flex-1 items-center justify-center">
-      <div className="max-w-3xl flex flex-col items-center w-full px-5">
+      <div className="max-w-3xl flex flex-col items-center w-full px-[25px]">
         <div className="text-2xl">
            WELCOME TO MY PORTFOLIO
         </div>

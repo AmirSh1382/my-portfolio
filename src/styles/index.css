@@ -15,10 +15,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-clip: border-box;
-  background-size: cover;
 }
 
 code {
