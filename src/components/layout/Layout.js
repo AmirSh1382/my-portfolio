@@ -24,13 +24,11 @@ const Layout = ({ children }) => {
       className="bg-building bg-center bg-cover bg-border-box
         bg-no-repeat flex flex-col"
     >
-        <Header />
+      <Header />
       
       {children}
 
-      <div className="bg-gray-700 border-t border-slate-500 mt-auto">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 };

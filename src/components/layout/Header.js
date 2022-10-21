@@ -6,6 +6,9 @@ import { Link, useLocation } from "react-router-dom";
 // Styles
 import styles from "../../styles/Header.module.css";
 
+// Logo
+import logo from "../../assets/logo.png"
+
 const Header = () => {
 
   const { pathname } = useLocation()
@@ -27,9 +30,9 @@ const Header = () => {
 
   return (
     <header className={styles.container}>
-      <div>
-        AmirSh
-      </div>
+      <Link to="/home">
+        <img src={logo} alt="logo" className="w-[40px]" />
+      </Link>
 
       <i 
         ref={hamburgerIcon}

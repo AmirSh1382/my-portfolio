@@ -37,7 +37,7 @@ const AboutMe = () => {
         </div>
         <div>
           <span className="text-primary">Skills:</span>
-          <div className="px-5 flex flex-col items-start gap-y-3 mt-1">
+          <div className="flex flex-col items-start gap-y-3 mt-1 px-5">
             <span>Html - 5</span>
             <span>CSS - 3</span>
             <span>Bootstrap</span>

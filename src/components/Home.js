@@ -18,7 +18,7 @@ const Home = () => {
             </span>
             , a front-end web developer living in Iran chasing my passion and building my career path.
         </div>
-        <Link to="/aboutme" className="text-sm border border-slate-300 hover:bg-gray-700 mt-8 hover:bg- py-2 px-7">
+        <Link to="/aboutme" className="text-sm border border-slate-300 hover:bg-gray-700 mt-8 py-2 px-7">
             About me
         </Link>
       </div>

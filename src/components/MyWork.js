@@ -44,7 +44,7 @@ const MyWork = () => {
         projectLink="https://plant-shop-amir-sh.vercel.app"
         description="Plant shopping store"
         features="SPA - Client-side data fetching - Pagination - Dark mode
-            - Cart - Products Detail - User Authentication (login / sign up)"
+            - Cart - Products Detail Page - User Authentication (login / sign up)"
         techStack="React JS - TailwindCSS - Pure Css - Bootstrap Icons
             - GraphQL - Redux"
         githubLink="https://github.com/AmirSh1382/Plant-Shop"
