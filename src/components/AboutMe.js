@@ -48,13 +48,18 @@ const AboutMe = () => {
             <span>Git and GitHub</span>
           </div>
         </div>
-        <button className="text-xs border border-slate-300 hover:bg-gray-700 py-3 px-7 mx-auto">
+        <a 
+          download
+          href="../assets/Resume.pdf"
+          className="text-xs border border-slate-300 hover:bg-gray-700 py-3 px-7 mx-auto"
+        >
           Download my Resume
-        </button>
+        </a>
         <div>
           <div className="text-primary">Hobbies:</div>
           <div className="flex flex-col items-start gap-y-2 mt-1 px-5">
             <span>Watching Movie</span>
+            <span>Listening To Music</span>
             <span>Reading About Technology</span>
             <span>Learning About Programing</span>
             <span></span>
