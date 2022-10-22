@@ -3,6 +3,9 @@ import React from "react";
 // Styles
 import styles from "../styles/scrollBar.module.css";
 
+// Resume file 
+import Resume from "../assets/Resume.pdf"
+
 const AboutMe = () => {
   return (
     <div
@@ -50,7 +53,7 @@ const AboutMe = () => {
         </div>
         <a 
           download
-          href="../assets/Resume.pdf"
+          href={Resume}
           className="text-xs border border-slate-300 hover:bg-gray-700 py-3 px-7 mx-auto"
         >
           Download my Resume
