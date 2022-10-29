@@ -4,7 +4,7 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 
 // Styles
-import styles from "../styles/scrollBar.module.css";
+import styles from "../styles/modules/scrollBar.module.scss";
 
 // Imgs
 import cryptoWatcherImg from "../assets/crypto-watcher.png";

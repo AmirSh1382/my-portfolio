@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 // Styles
-import styles from "../../styles/Header.module.css";
+import styles from "../../styles/modules/Header.module.scss";
 
 // Logo
 import logo from "../../assets/logo.png"

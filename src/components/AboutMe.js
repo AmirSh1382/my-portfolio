@@ -1,7 +1,7 @@
 import React from "react";
 
 // Styles
-import styles from "../styles/scrollBar.module.css";
+import styles from "../styles/modules/scrollBar.module.scss";
 
 // Resume file 
 import Resume from "../assets/Resume.pdf"
@@ -43,6 +43,7 @@ const AboutMe = () => {
           <div className="flex flex-col items-start gap-y-3 mt-1 px-5">
             <span>Html - 5</span>
             <span>CSS - 3</span>
+            <span>Sass</span>
             <span>Bootstrap</span>
             <span>TailwindCSS</span>
             <span>JavaScript</span>

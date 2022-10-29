@@ -1,0 +1,18 @@
+@mixin flex($justify, $align, $direction: row) {
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@mixin  textStyle ($size, $color, $weight: 400){
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+
+@mixin media($length) {
+    @media(min-width: $length){
+        @content;
+    }
+}
